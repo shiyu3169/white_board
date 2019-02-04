@@ -11,11 +11,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./app.css" />
-    <title>Login</title>
+    <title>Sign Up</title>
   </head>
   <body>
     <div class="container">
-      <h1>Sign In</h1>
+      <h1>Sign Up</h1>
       <form>
         <div class="form-group">
           <label for="username">Username</label>
@@ -37,9 +37,18 @@
             required
           />
         </div>
-        <a href="Profile.html" class="btn btn-block btn-primary">Sign In</a>
-        <a href="#">Forget Password?</a>
-        <a href="./Register.html" class="float-right">Sign up</a>
+        <div class="form-group">
+          <label for="password2">Verify Password</label>
+          <input
+            class="form-control"
+            type="password"
+            id="password2"
+            placeholder="Verify your password here..."
+            required
+          />
+        </div>
+        <a href="Profile.html" class="btn btn-block btn-primary">Sign Up</a>
+        <a href="./Login.html">Login</a>
       </form>
     </div>
   </body>
