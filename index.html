@@ -10,6 +10,12 @@
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./app.css" />
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -45,7 +51,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Login.html">Login</a>
@@ -65,16 +71,18 @@
         />
         <div class="input-group-append">
           <button class="btn btn-outline-secondary" type="submit">
-            Add
+            <i class="fas fa-plus-circle"></i>
           </button>
         </div>
       </form>
-      <table class="table">
+      <table class="table table-hover">
         <thead>
           <tr>
             <th>Title</th>
             <th>Owned by</th>
             <th>Last modified time</th>
+            <th></th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
@@ -82,19 +90,34 @@
             <td>Music</td>
             <td>Alice Wonder</td>
             <td>02-05-2019</td>
-            <td>X</td>
+            <td>
+              <button class="btn"><i class="fas fa-edit"></i></button>
+            </td>
+            <td>
+              <button class="btn"><i class="fas fa-trash-alt"></i></button>
+            </td>
           </tr>
           <tr>
             <td>Programing</td>
             <td>Shiyu Wang</td>
             <td>02-07-2019</td>
-            <td>X</td>
+            <td>
+              <button class="btn"><i class="fas fa-edit"></i></button>
+            </td>
+            <td>
+              <button class="btn"><i class="fas fa-trash-alt"></i></i></button>
+            </td>
           </tr>
           <tr>
             <td>Physics</td>
             <td>John Doe</td>
             <td>02-09-2019</td>
-            <td>X</td>
+            <td>
+              <button class="btn"><i class="fas fa-edit"></i></button>
+            </td>
+            <td>
+              <button class="btn"><i class="fas fa-trash-alt"></i></button>
+            </td>
           </tr>
         </tbody>
       </table>
