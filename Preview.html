@@ -62,37 +62,103 @@
         </ul>
       </div>
     </nav>
-    <!-- Side Menu -->
+
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-2">
+        <!-- Side Menu -->
+        <div class="col-lg-2 bg-grey">
           <div class="side">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link btn btn-dark mb-2 side-menu active" href="#"
-                  >Module 1 - HTML</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-dark mb-2 side-menu" href="#"
-                  >Module 2 - CSS</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-dark mb-2 side-menu" href="#"
-                  >Module 3 - JavaScript</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-dark mb-2 side-menu" href="#"
-                  >Module 4 - React</a
-                >
-              </li>
-            </ul>
+            <div
+              class="nav flex-column nav-pills"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <a
+                class="nav-link active"
+                id="v-pills-home-tab"
+                data-toggle="pill"
+                href="#v-pills-home"
+                role="tab"
+                aria-controls="v-pills-home"
+                aria-selected="true"
+                >Module 1 - Client Side</a
+              >
+              <a
+                class="nav-link"
+                id="v-pills-profile-tab"
+                data-toggle="pill"
+                href="#v-pills-profile"
+                role="tab"
+                aria-controls="v-pills-profile"
+                aria-selected="false"
+                >Module 2 - Server Side</a
+              >
+              <a
+                class="nav-link"
+                id="v-pills-messages-tab"
+                data-toggle="pill"
+                href="#v-pills-messages"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+                >Module 3 - Database</a
+              >
+              <a
+                class="nav-link"
+                id="v-pills-settings-tab"
+                data-toggle="pill"
+                href="#v-pills-settings"
+                role="tab"
+                aria-controls="v-pills-settings"
+                aria-selected="false"
+                >Module 4 - Security</a
+              >
+            </div>
           </div>
         </div>
-        <!-- Save and Preview -->
+
         <div class="col-lg-10">
+          <!-- Topics -->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                id="home-tab"
+                data-toggle="tab"
+                href="#home"
+                role="tab"
+                aria-controls="home"
+                aria-selected="true"
+                >HTML</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="profile-tab"
+                data-toggle="tab"
+                href="#profile"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+                >CSS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="contact-tab"
+                data-toggle="tab"
+                href="#contact"
+                role="tab"
+                aria-controls="contact"
+                aria-selected="false"
+                >Bootstrap</a
+              >
+            </li>
+          </ul>
+          <!-- Save and Preview -->
           <div class="row">
             <div class="width-full">
               <div class="float-right">
