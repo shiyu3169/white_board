@@ -2,3 +2,29 @@ body {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+
+.navbar-nav .side-menu {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.inline {
+  display: inline;
+}
+
+.widget-select {
+  width: 185px;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.widget {
+  border: solid 1px;
+  padding: 0px 10px;
+}
+
+.clear {
+  clear: both;
+}
